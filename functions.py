@@ -13,7 +13,7 @@ def get_branch_level(pid, responses):
 
 def mpanlparse(file, data, testdict):
     """
-    This function will parse theough the MPANL test type and return a dictionary of values
+    This function will parse though the MPANL test type and return a dictionary of values
     for the mpanlsData branch
 
     :param file:
@@ -189,10 +189,10 @@ def tripledigitparse(data):
 def flft(data):
     """
     Parse through the FLFT Right and FLFT Left branches.
-    return a dictionary of values that correspond to the F and L sub-branches
+    return a tuple of values that correspond to the F and L sub-branches
 
     :param data:
-    :return:
+    :return: tuple of left and right F/L values
     """
 
     responses = data['testResults']['responses']
